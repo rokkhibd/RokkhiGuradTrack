@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/text"
+
+        android:textColor="@color/orange"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="You are not registered under any company"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/log_out_btn"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/text"
+        android:textColor="@color/white"
+        android:text="Log Out"
+        android:background="@drawable/orange_rounded_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
